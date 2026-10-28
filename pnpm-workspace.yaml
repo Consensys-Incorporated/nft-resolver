@@ -1,0 +1,26 @@
+overrides:
+  'adm-zip': '^0.6.1'
+  'axios@<1': '^0.34.0'
+  'bn.js@4': '^4.12.5'
+  'form-data@<2.5.6': '^2.5.6'
+  'lodash': '^4.18.1'
+  'qs@6': '^6.16.0'
+  'serialize-javascript@6': '^7.1.4'
+  'tmp@<0.2.6': '^0.2.7'
+  'undici@5': '^6.29.1'
+  'ws@8': '^8.22.0'
+
+allowBuilds:
+  '@ensdomains/ens-contracts': false
+  keccak: false
+  secp256k1: false
+
+strictDepBuilds: true
+trustPolicy: no-downgrade
+minimumReleaseAge: 4320
+
+# Published without the provenance attestations earlier releases had
+trustPolicyExclude:
+  - 'chokidar@4.0.3'
+  - 'semver@6.3.1 || 5.7.2'
+  - 'undici-types@6.19.8 || 6.21.0'
