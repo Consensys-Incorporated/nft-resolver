@@ -59,6 +59,6 @@ Once all those steps are done you can start resolving subdomains of your ENS dom
 Run the following:
 
 ```shell
-npm i
-npm test
+pnpm install
+pnpm test
 ```
