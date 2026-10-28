@@ -73,7 +73,7 @@ describe("NFT Resolver", () => {
     });
     // We need this provider to get the latest L2BlockNumber along with the the linea state root hash
     l1SepoliaProvider = new ethers.JsonRpcProvider(
-      "https://eth.llamarpc.com",
+      "https://ethereum-rpc.publicnode.com",
       1,
       {
         staticNetwork: true,
